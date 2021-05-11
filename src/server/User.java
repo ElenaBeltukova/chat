@@ -25,7 +25,9 @@ public class User implements Serializable {
         this.oos = ois;
     }
 
-    public void setUserName(String userName) { this.userName = userName; }
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
     public String getUserName() { return userName; }
     public Socket getSocket() { return socket; }
     public UUID getUuid() { return uuid; }
